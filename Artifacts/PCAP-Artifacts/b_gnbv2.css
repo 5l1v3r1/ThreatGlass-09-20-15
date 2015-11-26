@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* new added 11.01.2013 */
+
+/* New York topmenu */
+#lnb_ny {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_ny.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_ny:after{content:"";display:block;clear:both;}
+
+
+#lnb_ny_mn1		{position:relative; display:block; width: 653px; height:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_ny.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_ny_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_ny_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_ny.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_ny_mn1 h3#tab01 a,
+	#lnb_ny_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab01 a:hover,
+	#lnb_ny_mn1 h3#tab01 a:active, 
+	#lnb_ny_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_ny_mn1 h3#tab02 a, 
+	#lnb_ny_mn1 h3#tab02 a	{width:48px; padding-left:1px; background-position:-48px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab02 a:hover,
+	#lnb_ny_mn1 h3#tab02 a:active,
+	#lnb_ny_mn1 h3#tab02.naviON a	{background-position:-96px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_ny_mn1 h3#tab03 a,
+	#lnb_ny_mn1 h3#tab03 a	{width:62px; padding-left:1px; background-position:-96px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab03 a:hover,
+	#lnb_ny_mn1 h3#tab03 a:active,
+	#lnb_ny_mn1 h3#tab03.naviON a	{background-position:-158px -63px; text-decoration:none;line-height:11px;}
+  
+	#lnb_ny_mn1 h3#tab04 a,
+	#lnb_ny_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-158px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab04 a:hover,
+	#lnb_ny_mn1 h3#tab04 a:active,
+	#lnb_ny_mn1 h3#tab04.naviON a	{background-position:-206px -63px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_ny_mn1 h3#tab05 a,
+	#lnb_ny_mn1 h3#tab05 a	{width:48px; padding-left:1px; background-position:-206px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab05 a:hover,
+	#lnb_ny_mn1 h3#tab05 a:active,
+	#lnb_ny_mn1 h3#tab05.naviON a	{background-position:-254px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_ny_mn1 h3#tab06 a,
+	#lnb_ny_mn1 h3#tab06 a	{width:48px; padding-left:1px; background-position:-254px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab06 a:hover,
+	#lnb_ny_mn1 h3#tab06 a:active,
+	#lnb_ny_mn1 h3#tab06.naviON a	{background-position:-302px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_ny_mn1 h3#tab07 a,
+	#lnb_ny_mn1 h3#tab07 a	{width:62px; padding-left:1px; background-position:-302px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab07 a:hover,
+	#lnb_ny_mn1 h3#tab07 a:active,
+	#lnb_ny_mn1 h3#tab07.naviON a	{background-position:-364px -53px; text-decoration:none;line-height:11px;}
+
+	#lnb_ny_mn1 h3#tab08 a,
+	#lnb_ny_mn1 h3#tab08 a	{width:78px; padding-left:1px; background-position:-364px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab08 a:hover,
+	#lnb_ny_mn1 h3#tab08 a:active,
+	#lnb_ny_mn1 h3#tab08.naviON a	{background-position:-442px -53px; text-decoration:none;line-height:11px;}
+
+	#lnb_ny_mn1 h3#tab09 a,
+	#lnb_ny_mn1 h3#tab09 a	{width:78px; padding-left:1px; background-position:-442px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab09 a:hover,
+	#lnb_ny_mn1 h3#tab09 a:active,
+	#lnb_ny_mn1 h3#tab09.naviON a	{background-position:-520px -53px; text-decoration:none;line-height:11px;}
+	
+	#lnb_ny_mn1 h3#tab10 a,
+	#lnb_ny_mn1 h3#tab10 a	{width:82px; padding-left:1px; background-position:-520px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ny_mn1 h3#tab10 a:hover,
+	#lnb_ny_mn1 h3#tab10 a:active,
+	#lnb_ny_mn1 h3#tab10.naviON a	{background-position:-612px -53px; text-decoration:none;line-height:11px;}
+
+	
+/* Washington DC topmenu */
+#lnb_dc {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_dc.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_dc:after{content:"";display:block;clear:both;}
+
+
+#lnb_dc_mn1		{position:relative; display:block; width: 653px; height:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_dc2.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_dc_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_dc_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_dc.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_dc_mn1 h3#tab01 a,
+	#lnb_dc_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab01 a:hover,
+	#lnb_dc_mn1 h3#tab01 a:active, 
+	#lnb_dc_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_dc_mn1 h3#tab02 a, 
+	#lnb_dc_mn1 h3#tab02 a	{width:48px; padding-left:1px; background-position:-48px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab02 a:hover,
+	#lnb_dc_mn1 h3#tab02 a:active,
+	#lnb_dc_mn1 h3#tab02.naviON a	{background-position:-96px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_dc_mn1 h3#tab03 a,
+	#lnb_dc_mn1 h3#tab03 a	{width:62px; padding-left:1px; background-position:-96px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab03 a:hover,
+	#lnb_dc_mn1 h3#tab03 a:active,
+	#lnb_dc_mn1 h3#tab03.naviON a	{background-position:-158px -63px; text-decoration:none;line-height:11px;}
+  
+/*	#lnb_dc_mn1 h3#tab04 a,
+	#lnb_dc_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-158px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab04 a:hover,
+	#lnb_dc_mn1 h3#tab04 a:active,
+	#lnb_dc_mn1 h3#tab04.naviON a	{background-position:-206px -63px; text-decoration:none;line-height:11px;}*/
+ 
+	#lnb_dc_mn1 h3#tab04 a,
+	#lnb_dc_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-158px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab04 a:hover,
+	#lnb_dc_mn1 h3#tab04 a:active,
+	#lnb_dc_mn1 h3#tab04.naviON a	{background-position:-206px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_dc_mn1 h3#tab05 a,
+	#lnb_dc_mn1 h3#tab05 a	{width:48px; padding-left:1px; background-position:-206px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab05 a:hover,
+	#lnb_dc_mn1 h3#tab05 a:active,
+	#lnb_dc_mn1 h3#tab05.naviON a	{background-position:-254px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_dc_mn1 h3#tab06 a,
+	#lnb_dc_mn1 h3#tab06 a	{width:62px; padding-left:1px; background-position:-254px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab06 a:hover,
+	#lnb_dc_mn1 h3#tab06 a:active,
+	#lnb_dc_mn1 h3#tab06.naviON a	{background-position:-316px -53px; text-decoration:none;line-height:11px;}
+
+	#lnb_dc_mn1 h3#tab07 a,
+	#lnb_dc_mn1 h3#tab07 a	{width:78px; padding-left:1px; background-position:-316px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab07 a:hover,
+	#lnb_dc_mn1 h3#tab07 a:active,
+	#lnb_dc_mn1 h3#tab07.naviON a	{background-position:-394px -53px; text-decoration:none;line-height:11px;}
+
+	#lnb_dc_mn1 h3#tab08 a,
+	#lnb_dc_mn1 h3#tab08 a	{width:78px; padding-left:1px; background-position:-394px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab08 a:hover,
+	#lnb_dc_mn1 h3#tab08 a:active,
+	#lnb_dc_mn1 h3#tab08.naviON a	{background-position:-472px -53px; text-decoration:none;line-height:11px;}
+	
+	#lnb_dc_mn1 h3#tab09 a,
+	#lnb_dc_mn1 h3#tab09 a	{width:82px; padding-left:1px; background-position:-472px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_dc_mn1 h3#tab09 a:hover,
+	#lnb_dc_mn1 h3#tab09 a:active,
+	#lnb_dc_mn1 h3#tab09.naviON a	{background-position:-554px -53px; text-decoration:none;line-height:11px;}
+
+	
+/* San Fransico topmenu */
+#lnb_sf {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_sf.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_sf:after{content:"";display:block;clear:both;}
+
+
+#lnb_sf_mn1		{position:relative; display:block; width: 653px; height:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_sf.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_sf_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_sf_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_sf.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_sf_mn1 h3#tab01 a,
+	#lnb_sf_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab01 a:hover,
+	#lnb_sf_mn1 h3#tab01 a:active, 
+	#lnb_sf_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+
+	#lnb_sf_mn1 h3#tab02 a, 
+	#lnb_sf_mn1 h3#tab02 a	{width:62px; padding-left:1px; background-position:-48px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab02 a:hover,
+	#lnb_sf_mn1 h3#tab02 a:active,
+	#lnb_sf_mn1 h3#tab02.naviON a	{background-position:-110px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_sf_mn1 h3#tab03 a, 
+	#lnb_sf_mn1 h3#tab03 a	{width:79px; padding-left:1px; background-position:-110px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab03 a:hover,
+	#lnb_sf_mn1 h3#tab03 a:active,
+	#lnb_sf_mn1 h3#tab03.naviON a	{background-position:-189px -49px; text-decoration:none;line-height:11px;}
+  
+	#lnb_sf_mn1 h3#tab04 a,
+	#lnb_sf_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-189px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab04 a:hover,
+	#lnb_sf_mn1 h3#tab04 a:active,
+	#lnb_sf_mn1 h3#tab04.naviON a	{background-position:-237px -129px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_sf_mn1 h3#tab05 a,
+	#lnb_sf_mn1 h3#tab05 a	{width:48px; padding-left:1px; background-position:-237px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab05 a:hover,
+	#lnb_sf_mn1 h3#tab05 a:active,
+	#lnb_sf_mn1 h3#tab05.naviON a	{background-position:-206px -178px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_sf_mn1 h3#tab06 a, 
+	#lnb_sf_mn1 h3#tab06 a	{width:48px; padding-left:1px; background-position:-206px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab06 a:hover,
+	#lnb_sf_mn1 h3#tab06 a:active,
+	#lnb_sf_mn1 h3#tab06.naviON a	{background-position:-254px -227px; text-decoration:none;line-height:11px;}
+	
+	#lnb_sf_mn1 h3#tab07 a,
+	#lnb_sf_mn1 h3#tab07 a	{width:79px; padding-left:1px; background-position:-254px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab07 a:hover,
+	#lnb_sf_mn1 h3#tab07 a:active,
+	#lnb_sf_mn1 h3#tab07.naviON a	{background-position:-333px -276px; text-decoration:none;line-height:11px;}
+
+	#lnb_sf_mn1 h3#tab08 a,
+	#lnb_sf_mn1 h3#tab08 a	{width:82px; padding-left:1px; background-position:-333px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_sf_mn1 h3#tab08 a:hover,
+	#lnb_sf_mn1 h3#tab08 a:active,
+	#lnb_sf_mn1 h3#tab08.naviON a	{background-position:-415px -276px; text-decoration:none;line-height:11px;}
+
+
+/* Chicago topmenu */
+#lnb_ch {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_ch.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_ch:after{content:"";display:block;clear:both;}
+
+
+#lnb_ch_mn1		{position:relative; display:block; width:653px; height:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_ch.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_ch_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_ch_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_ch.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_ch_mn1 h3#tab01 a,
+	#lnb_ch_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab01 a:hover,
+	#lnb_ch_mn1 h3#tab01 a:active, 
+	#lnb_ch_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+
+	#lnb_ch_mn1 h3#tab02 a, 
+	#lnb_ch_mn1 h3#tab02 a	{width:62px; padding-left:1px; background-position:-48px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab02 a:hover,
+	#lnb_ch_mn1 h3#tab02 a:active,
+	#lnb_ch_mn1 h3#tab02.naviON a	{background-position:-110px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_ch_mn1 h3#tab03 a, 
+	#lnb_ch_mn1 h3#tab03 a	{width:48px; padding-left:1px; background-position:-110px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab03 a:hover,
+	#lnb_ch_mn1 h3#tab03 a:active,
+	#lnb_ch_mn1 h3#tab03.naviON a	{background-position:-158px -49px; text-decoration:none;line-height:11px;}
+  
+	#lnb_ch_mn1 h3#tab04 a,
+	#lnb_ch_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-158px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab04 a:hover,
+	#lnb_ch_mn1 h3#tab04 a:active,
+	#lnb_ch_mn1 h3#tab04.naviON a	{background-position:-206px -63px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_ch_mn1 h3#tab05 a,
+	#lnb_ch_mn1 h3#tab05 a	{width:79px; padding-left:1px; background-position:-206px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab05 a:hover,
+	#lnb_ch_mn1 h3#tab05 a:active,
+	#lnb_ch_mn1 h3#tab05.naviON a	{background-position:-285px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_ch_mn1 h3#tab06 a,
+	#lnb_ch_mn1 h3#tab06 a	{width:79px; padding-left:1px; background-position:-285px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab06 a:hover,
+	#lnb_ch_mn1 h3#tab06 a:active,
+	#lnb_ch_mn1 h3#tab06.naviON a	{background-position:-364px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_ch_mn1 h3#tab07 a,
+	#lnb_ch_mn1 h3#tab07 a	{width:82px; padding-left:1px; background-position:-364px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ch_mn1 h3#tab07 a:hover,
+	#lnb_ch_mn1 h3#tab07 a:active,
+	#lnb_ch_mn1 h3#tab07.naviON a	{background-position:-446px -53px; text-decoration:none;line-height:11px;}
+	
+	
+
+/* Seattle topmenu */
+#lnb_se {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_se.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_se:after{content:"";display:block;clear:both;}
+
+
+#lnb_se_mn1		{position:relative; display:block; width: 653px; height:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_se.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_se_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_se_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_se.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_se_mn1 h3#tab01 a,
+	#lnb_se_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab01 a:hover,
+	#lnb_se_mn1 h3#tab01 a:active, 
+	#lnb_se_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_se_mn1 h3#tab02 a, 
+	#lnb_se_mn1 h3#tab02 a	{width:62px; padding-left:1px; background-position:-128px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab02 a:hover,
+	#lnb_se_mn1 h3#tab02 a:active,
+	#lnb_se_mn1 h3#tab02.naviON a	{background-position:-97px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_se_mn1 h3#tab03 a,
+	#lnb_se_mn1 h3#tab03 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab03 a:hover,
+	#lnb_se_mn1 h3#tab03 a:active,
+	#lnb_se_mn1 h3#tab03.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+  
+	#lnb_se_mn1 h3#tab04 a,
+	#lnb_se_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab04 a:hover,
+	#lnb_se_mn1 h3#tab04 a:active,
+	#lnb_se_mn1 h3#tab04.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_se_mn1 h3#tab05 a,
+	#lnb_se_mn1 h3#tab05 a	{width:79px; padding-left:1px; background-position:-237px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab05 a:hover,
+	#lnb_se_mn1 h3#tab05 a:active,
+	#lnb_se_mn1 h3#tab05.naviON a	{background-position:-226px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_se_mn1 h3#tab06 a,
+	#lnb_se_mn1 h3#tab06 a	{width:79px; padding-left:1px; background-position:-286px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab06 a:hover,
+	#lnb_se_mn1 h3#tab06 a:active,
+	#lnb_se_mn1 h3#tab06.naviON a	{background-position:-306px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_se_mn1 h3#tab07 a,
+	#lnb_se_mn1 h3#tab07 a	{width:87px; padding-left:1px; background-position:-307px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_se_mn1 h3#tab07 a:hover,
+	#lnb_se_mn1 h3#tab07 a:active,
+	#lnb_se_mn1 h3#tab07.naviON a	{background-position:-389px -53px; text-decoration:none;line-height:11px;}
+
+
+
+/* Hawaii topmenu */
+#lnb_hw {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_hw.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_hw:after{content:"";display:block;clear:both;}
+
+
+#lnb_hw_mn1		{position: relative; display: block; width: 653px; height: 65px; float: left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_hw.jpg') no-repeat 0 0; overflow: hidden; margin-left: 7px;}
+#lnb_hw_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_hw_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_hw.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_hw_mn1 h3#tab01 a,
+	#lnb_hw_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab01 a:hover,
+	#lnb_hw_mn1 h3#tab01 a:active, 
+	#lnb_hw_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_hw_mn1 h3#tab02 a, 
+	#lnb_hw_mn1 h3#tab02 a	{width:62px; padding-left:1px; background-position:-128px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab02 a:hover,
+	#lnb_hw_mn1 h3#tab02 a:active,
+	#lnb_hw_mn1 h3#tab02.naviON a	{background-position:-97px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_hw_mn1 h3#tab03 a,
+	#lnb_hw_mn1 h3#tab03 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab03 a:hover,
+	#lnb_hw_mn1 h3#tab03 a:active,
+	#lnb_hw_mn1 h3#tab03.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+  
+	#lnb_hw_mn1 h3#tab04 a,
+	#lnb_hw_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab04 a:hover,
+	#lnb_hw_mn1 h3#tab04 a:active,
+	#lnb_hw_mn1 h3#tab04.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_hw_mn1 h3#tab05 a,
+	#lnb_hw_mn1 h3#tab05 a	{width:79px; padding-left:1px; background-position:-237px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab05 a:hover,
+	#lnb_hw_mn1 h3#tab05 a:active,
+	#lnb_hw_mn1 h3#tab05.naviON a	{background-position:-226px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_hw_mn1 h3#tab06 a,
+	#lnb_hw_mn1 h3#tab06 a	{width:79px; padding-left:1px; background-position:-286px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab06 a:hover,
+	#lnb_hw_mn1 h3#tab06 a:active,
+	#lnb_hw_mn1 h3#tab06.naviON a	{background-position:-306px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_hw_mn1 h3#tab07 a,
+	#lnb_hw_mn1 h3#tab07 a	{width:87px; padding-left:1px; background-position:-307px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_hw_mn1 h3#tab07 a:hover,
+	#lnb_hw_mn1 h3#tab07 a:active,
+	#lnb_hw_mn1 h3#tab07.naviON a	{background-position:-389px -53px; text-decoration:none;line-height:11px;}
+
+
+/* Philadephia topmenu */
+#lnb_ph {width:970px; margin:0 auto; height:65px; padding:0;background:url('http://www.koreatimes.com/images2/menu/top_sect_ph.jpg') no-repeat 0 0; border-bottom:1px solid #999;clear: both;}
+#lnb_ph:after{content:"";display:block;clear:both;}
+
+
+#lnb_ph_mn1		{position:relative; display:block;  width: 653px; heighzt:65px; float:left; background:url('http://www.koreatimes.com/images2/menu/top_sect1_ph.jpg') no-repeat 0 0; overflow:hidden;margin-left: 7px;}
+#lnb_ph_mn1 h3		{display:block; float:left; margin:0; font-size:13px; font-weight:bold;text-align:center;letter-spacing: -1px; font-family:"굴림", Gulim, AppleGothic, Sans-serif;}
+#lnb_ph_mn1 h3 a	{display:block; height:26px; padding-top:11px; background:url('http://www.koreatimes.com/images2/menu/top_ph.jpg') no-repeat 0 0; color:#fff; overflow:hidden;}
+ 
+	#lnb_ph_mn1 h3#tab01 a,
+	#lnb_ph_mn1 h3#tab01 a	{width:48px; padding-left:0px; background-position:0 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab01 a:hover,
+	#lnb_ph_mn1 h3#tab01 a:active, 
+	#lnb_ph_mn1 h3#tab01.naviON a	{background-position:0 -48px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_ph_mn1 h3#tab02 a, 
+	#lnb_ph_mn1 h3#tab02 a	{width:62px; padding-left:1px; background-position:-128px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab02 a:hover,
+	#lnb_ph_mn1 h3#tab02 a:active,
+	#lnb_ph_mn1 h3#tab02.naviON a	{background-position:-97px -49px; text-decoration:none;line-height:11px;}
+
+	#lnb_ph_mn1 h3#tab03 a,
+	#lnb_ph_mn1 h3#tab03 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab03 a:hover,
+	#lnb_ph_mn1 h3#tab03 a:active,
+	#lnb_ph_mn1 h3#tab03.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+  
+	#lnb_ph_mn1 h3#tab04 a,
+	#lnb_ph_mn1 h3#tab04 a	{width:48px; padding-left:1px; background-position:-208px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab04 a:hover,
+	#lnb_ph_mn1 h3#tab04 a:active,
+	#lnb_ph_mn1 h3#tab04.naviON a	{background-position:-146px -63px; text-decoration:none;line-height:11px;}
+ 
+	#lnb_ph_mn1 h3#tab05 a,
+	#lnb_ph_mn1 h3#tab05 a	{width:79px; padding-left:1px; background-position:-237px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab05 a:hover,
+	#lnb_ph_mn1 h3#tab05 a:active,
+	#lnb_ph_mn1 h3#tab05.naviON a	{background-position:-226px -53px; text-decoration:none;line-height:11px;}
+	
+ 	#lnb_ph_mn1 h3#tab06 a,
+	#lnb_ph_mn1 h3#tab06 a	{width:79px; padding-left:1px; background-position:-286px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab06 a:hover,
+	#lnb_ph_mn1 h3#tab06 a:active,
+	#lnb_ph_mn1 h3#tab06.naviON a	{background-position:-306px -53px; text-decoration:none;line-height:11px;}
+
+ 	#lnb_ph_mn1 h3#tab07 a,
+	#lnb_ph_mn1 h3#tab07 a	{width:87px; padding-left:1px; background-position:-307px 0;text-decoration:none;line-height:11px;font-family: "굴림", Gulim, AppleGothic, Sans-serif;}
+	#lnb_ph_mn1 h3#tab07 a:hover,
+	#lnb_ph_mn1 h3#tab07 a:active,
+	#lnb_ph_mn1 h3#tab07.naviON a	{background-position:-389px -53px; text-decoration:none;line-height:11px;}

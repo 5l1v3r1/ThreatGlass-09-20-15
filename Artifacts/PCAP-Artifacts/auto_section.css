@@ -1,0 +1,189 @@
+﻿@charset "utf-8";
+
+
+
+/***************************
+     auto_section defalt          
+***************************/
+.auto_section div, .auto_section ul, .auto_section li, .auto_section p, .auto_section img, .auto_section input, .auto_section h1, .auto_section h2, .auto_section h3, .auto_section h4, .auto_section h5, .auto_section h6, .auto_section label
+{color:#323232; font-size:12px; font-family:gulim, verdana, simsun; margin:0; padding:0; border:none; list-style:none; text-align:left;}
+.auto_section a:link, .auto_section a:hover, .auto_section a:visited, .auto_section a:active 
+{text-decoration:none; outline:0; margin:0; padding:0; color:#323232;}
+
+
+
+/***************************
+        auto_section       
+***************************/
+
+/* layout */
+.auto_section {clear:both; position:relative; margin:0 auto; width:970px; margin-top:10px;}
+.auto_section h2 {position:absolute; top:-3px; left:20px; font-size:23px; font-family:"malgun gothic"; letter-spacing:-1px; line-height:160%;}
+.auto_section h2 img {vertical-align:text-top;}
+.auto_section h2 .sponsor {margin-top:11px;}
+.auto_section .area1 {clear:both; float:left; width:645px; margin:25px 24px 30px 0;}
+.auto_section .area2 {float:left; margin:25px 0 30px 0; width:300px}
+.auto_section .area1 h3, 
+.auto_section .area2 h3 {padding-bottom:12px; font-size:21px; letter-spacing:-3px; font-family:"malgun gothic"; line-height:100%;}
+.auto_section h3 a {font-family:"malgun gothic";}
+
+
+/* survey 설문조사 */
+.auto_section .survey {width:970px; height:265px; background:url(http://www.koreatimes.com/images/auto_section/survey_201509.png) no-repeat center top; /*background:url(/images/auto_section/survey_visual.jpg) no-repeat center top;*/}
+.survey .result {float:left;}
+.survey .question {float: right; width: 590px; height: 265px; margin-right: 0px;}
+.survey .question .question_area {position:relative; width:1px; height:1px; overflow:hidden;}
+.survey .question .q_item {margin:85px 0 0 0}
+.survey .question .q_item label {font-size:13px; font-family:gulim, sans-serif; font-weight:bold;}
+.survey .question .q_item .item {float:left; min-width:25px; height:30px; margin:0 5px 3px 0; padding:14px 18px 15px 18px; text-align:center; background:#fff; border-radius:30px; border:3px solid #b2b2b2; box-shadow:inset 7px 0px 20px #e7e7e7;}
+.survey .question .q_item .radio {margin-top:2px;}
+.survey .question .q_item .text {width:100px; height:18px; margin-top:-1px; padding:1px 5px; line-height:150%; border:1px solid #c6c6c6; font-size:13px; *margin-left:-120px;}
+.survey .question .submit {position:absolute; /*top:185px; left:500px;position: absolute;*/ top: 170px; right: 10px;}
+
+
+/* colume 칼럼 */
+.auto_section .column {position:relative; width:960px; height:240px; border:5px solid #d7d7d7;}
+.auto_section .column h3 {float:left; margin:-5px 0 0 -5px;}
+.auto_section .column .columnist_img {position:absolute; top:10px; right:25px;}
+.auto_section .column .column_area {float:left; width:655px; margin:40px 30px 30px 30px;}
+.auto_section .column .column_area h4,
+.auto_section .column .column_area h5 {max-width:570px; font-family:"나눔명조","malgun gothic",sans-serif; line-height:100%;}
+.auto_section .column .column_area h4 {font-size:24px; letter-spacing:-1px;}
+.auto_section .column .column_area h5 {font-size:16px; margin-top:15px;}
+.auto_section .column .column_area p {margin-top:26px; line-height:170%;}
+
+
+/* news 자동차소식 */
+.area1 .news {position:relative; min-height:500px; line-height:140%;}
+.area1 .news .more {position:absolute; top:7px; right:0;}
+.area1 .news .more a {color:#6c6c6c;}
+.area1 .autonews_photo {height:175px; padding:20px; background:#f5f5f5; border-top:1px solid #d9d9d9;}
+.area1 .autonews_photo .autonews_img {float:left; margin-right:15px;}
+.area1 .autonews_photo .autonews_area {float:left; width:365px;}
+.area1 .autonews_photo .autonews_area h4 {margin-top:2px; font-size:16px; font-family:dotum, sans-serif;}
+.area1 .autonews_photo .autonews_area h4 a {line-height:140%;}
+.area1 .autonews_photo .autonews_area h5 {margin-top:10px; font-size:13px;}
+.area1 .autonews_photo .autonews_area h5 a {color:#636363; font-family:gulim;}
+.area1 .autonews_photo h4, .area1 .autonews_photo h5 {white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.area1 .autonews_photo .hot {margin-top:5px; margin-right:5px;}
+.area1 .autonews_photo .txt {color:#7b7b7b; line-height:19px; margin-top:9px; overflow:hidden;}
+.area1 .autonews_photo .txt a {color:#7b7b7b; height:100px; line-height:19px;}
+.area1 .news_area {clear:both; border-top:2px solid #323232;}
+.area1 .news_area .news_list {position:relative; padding:15px 0; border-bottom:1px solid #cfcfcf;}
+.area1 .news_area .news_list a {line-height:140%;}
+.area1 .news_area .news_list .contents {width:420px; margin:0 0 0 35px;}
+.area1 .news_area .news_list .contents h4 {margin-bottom:7px; font-size:13px;}
+.area1 .news_area .news_list .upload_date {position:absolute; top:43%; left:545px; width:90px; color:#646464;}
+.area1 .news .page_num {position:relative; margin-top:15px; width:100%; text-align:center; vertical-align:middle;}
+.area1 .news .page_num a, .area1 .news .page_num strong {padding:0 4px;}
+.area1 .news .page_num .first,
+.area1 .news .page_num .prev,
+.area1 .news .page_num .next,
+.area1 .news .page_num .last {width:21px; height:17px; display:inline-block; margin-top:-3px; overflow:hidden; text-indent:-50px; vertical-align:text-top; padding:0 2px;}
+.area1 .news .page_num .first {background:url(/images/auto_section/page_first.gif) no-repeat center top;}
+.area1 .news .page_num .prev {background:url(/images/auto_section/page_prev.gif) no-repeat left top;}
+.area1 .news .page_num .next {background:url(/images/auto_section/page_next.gif) no-repeat right top;}
+.area1 .news .page_num .last {background:url(/images/auto_section/page_last.gif) no-repeat center top;}
+
+
+/* seller 한인매매업체 */
+.seller {position:relative; width:645px;}
+.seller h3 {margin-top:30px;}
+.seller .arrow {position:absolute; right:0; top:10px; z-index:1; cursor:pointer;}
+.seller .arrow #arrow_prev {float:left;}
+.seller .arrow #arrow_next {float:left;}
+.seller .seller_area {clear:both; height:205px; margin-bottom:30px; border:1px solid #d7d7d7;}
+.seller .num {position:absolute; top:-23px; right:30px; font-size:15px; color:#a6a6a6;}
+.seller .num b {color:#444;}
+.seller .seller_list {position:absolute;}
+.seller .seller_list ul {margin:18px 0 0 12px;}
+.seller .seller_list ul li {float:left; width:135px; height:115px; margin:0 10px 10px 10px; text-align:center;}
+
+
+
+/* twitter 실시간트윗 */
+.area2 .twitter {margin:30px 0;}
+.area2 .twitter .twitter_area {height:600px; outline:1px solid #ececec; background:#f8f8f8;}
+
+
+/* bn_toyota 토요타배너 */
+.area2 .bn_toyota {margin-top:25px;}
+
+
+/* ads 안내광고 */
+.area2 .ads {position:relative; background:#fff;}
+.area2 .ads h3 {width:300px; margin-top:25px; border-bottom:1px solid #8a8f99;}
+.area2 .ads .more {position:absolute; top:7px; right:0;}
+.area2 .ads .more a {color:#6c6c6c;}
+.area2 .ads ul {width:280px; margin:13px 0 0 10px; white-space:nowrap; overflow:hidden;}
+.area2 .ads ul li {background:url(/images/auto_section/list_icon.gif) no-repeat 2px 5px; padding:0 0 0 17px; line-height:180%;}
+.area2 .ads ul li a {line-height:180%;}
+
+
+/* keyword 관련업소키워드 */
+.area2 .keyword h3 {margin-top:25px; border-bottom:1px solid #8a8f99;}
+.area2 .keyword .keyword_area {width:300px; margin-top:10px;}
+.area2 .keyword .keyword_area ul li {float:left; margin:0 5px 5px 0; padding:5px 10px; background:#edeff2; color:#555;}
+.area2 .keyword .keyword_area ul .strong {font-weight:bold;}
+.area2 .keyword hr {clear:both; border:0; visibility:hidden;}
+
+
+
+/***************************
+      main auto_section       
+***************************/
+
+/* news 자동차소식 */
+.autos_news_banner_main {width:532px; height:220px; text-align:left;}
+.autos_news_banner_main .autos_news {float:left; width:275px; margin-right:5px; border:1px solid #ccc;}
+.autos_news_banner_main .autos_news h4 {background:url(/images2/main/box_top.gif) repeat-x top; padding:9px 18px 7px 18px; font-size:14px;}
+.autos_news_banner_main .autos_news h4 img {vertical-align:text-top; margin-top:-1px;}
+.autos_news_banner_main .autos_news ul li {clear:both; margin:0 20px; height:78px;}
+.autos_news_banner_main .autos_news ul li.news1 {margin-top:15px; border-bottom:1px dashed #ddd;}
+.autos_news_banner_main .autos_news ul li.news2 {margin-top:15px;}
+.autos_news_banner_main .autos_news ul img {display:block; float:left; margin-right:10px; width:80px; height:65px;}
+.autos_news_banner_main .autos_news a h5 {margin-bottom:2px; line-height:135%; color:#4e4e4e; font-size:12px;}
+.autos_news_banner_main .autos_news a p {line-height:130%; color:#8e8e8e;}
+.autos_news_banner_main .autos_news p {height:32px; overflow:hidden;}
+
+
+/* column banner 칼럼배너 */
+.autos_news_banner_main .autos_bn {float:left; width:220px;}
+
+
+/* 설문조사 main autos survey  */
+.survey_main h2 {font-size:20px;}
+.survey_main .btm_gra {position:absolute; top:260px; width:970px; height:5px; background:url(/images/auto_section/survey_bg_btm.png) no-repeat top left;}
+
+
+
+/****************************************
+      private_survey 설문조사후 질문      
+****************************************/
+
+#autos_private_survey_area {display:none; position:fixed; top:0; left:0; z-index:999999; width:100%; height:100%; background:url(http://www.koreatimes.com/images/banner/etc/popup_bg1.png) repeat;}
+#autos_private_survey {width:660px; margin:30px auto 0 auto; background:#fff; border:20px solid #efefef; color:#333; line-height:17px; box-shadow:0px 0px 10px #000;}
+#autos_private_survey h2 {margin-top:45px; font-family:"malgun gothic", sans-serif; text-align:center; line-height:0;}
+#autos_private_survey .comments {width:100%; display:inline-block; margin-top:2px; color:#666; text-align:center;}
+#autos_private_survey fieldset {padding:0 7px 40px 7px; border:0;}
+
+#autos_private_survey .survey_quest {margin-top:10px;}
+#autos_private_survey .survey_quest li {padding:5px 20px; border-bottom:1px solid #e4e4e4;}
+#autos_private_survey .survey_quest h3 {font-size:14px; margin-bottom:3px; font-family:"malgun gothic", sans-serif; color:#007c9d;}
+#autos_private_survey .survey_quest span {display:inline-block; margin-right:10px; width:80px;}
+#autos_private_survey .survey_quest .quest03 span {width:90px;}
+#autos_private_survey .survey_quest input {vertical-align:text-bottom;}
+
+#autos_private_survey .contact_info {margin-top:40px; text-align:center;}
+#autos_private_survey .contact_info h4 {margin:15px 0 5px 0; font-size:14px;}
+#autos_private_survey .contact_info label {margin:0 10px 0 20px;}
+#autos_private_survey .contact_info .txtbox_survey {height:30px; padding:3px 0 3px 7px; border:1px solid #b4b4b4; font-family:dotum; font-size:14px; font-weight:bold; color:#444;}
+
+#autos_private_survey .terms_privacy {margin-top:20px; padding:15px; background:#f4f4f4; border:1px solid #dedede; font-size:12px; color:#555; border-radius:10px;}
+#autos_private_survey .terms_privacy span {width:100%; margin-top:7px; display:inline-block; font-size:13px; font-weight:bold; text-align:center;}
+#autos_private_survey .terms_privacy input {vertical-align:text-bottom;}
+
+#autos_private_survey .submit_survey {margin-top:30px; text-align:center;}
+#autos_private_survey .submit_survey input {width:100px; height:35px; border:none; color:#fff; font-weight:bold; font-size:15px;}
+#autos_private_survey .submit_survey .btn_done {background:#b94147;}
+#autos_private_survey .submit_survey .btn_cancel {background:#444;}

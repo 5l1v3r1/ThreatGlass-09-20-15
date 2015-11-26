@@ -1,0 +1,32 @@
+<!-- jobsWrap -->
+.jobsWrap {width:970px; height:250px; margin:0 auto;}
+.jobsWrap .jb_banner {float:right; margin-top:-41px;background-color: #ddd; width: 262px;}
+.jobsWrap .jb_tit {clear:both; text-align:left; padding-top:2px;}
+.jobsWrap .jb_tit h5 {width:696px; height:40px; border:1px solid #e6e6e6; border-bottom:0; float:left; font-size:12px; color:#666; font-weight:normal; }
+.jobsWrap .jb_tit h5 img {margin:13px 30px 0 20px; vertical-align:-5px;}
+
+.jobsWrap .leftArea {clear:both; width:155px; height:207px; z-index:2; position:relative; float:left; border:1px solid #e6e6e6; border-right:0;}
+.jobsWrap .leftArea .jobList {margin-top:5px; list-style:none;}
+.jobsWrap .leftArea .jobList li {position:relative; height:26px; margin-bottom:7px; font-size:0; line-height:0;}
+.jobsWrap .leftArea .jobList li a {display:block; width:133px; height:26px; overflow:hidden; background:none no-repeat 0 0; text-indent:-999em;}
+.jobsWrap .leftArea .jobList li a.on{width:150px;}
+.jobsWrap .leftArea .jblst1 a.off {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_01_off.gif);}
+.jobsWrap .leftArea .jblst2 a.off {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_02_off.gif);}
+.jobsWrap .leftArea .jblst3 a.off {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_03_off.gif);}
+.jobsWrap .leftArea .jblst1 a.on {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_01_on.png); margin-left:10px}
+.jobsWrap .leftArea .jblst2 a.on {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_02_on.png); margin-left:10px}
+.jobsWrap .leftArea .jblst3 a.on {background-image:url(http://www.koreatimes.com/promotion/jobkoreausa/images/btn_jobs_03_on.png); margin-left:10px}
+
+.jobsWrap .rightArea {float:left; width:540px; height:207px; overflow:hidden; border:1px solid #e6e6e6;}
+.jobsWrap .rightArea .jobList3, .jobList1, .jobList2 {position:relative; left:0; top:0; width:100%; display:block;}
+
+.jobsWrap .rightArea .jblist {display:block; height:207px; overflow:hidden; padding-bottom:12px;}
+.jobsWrap .rightArea .jblist ul {z-index:1; width:500px; margin:10px 0 0 35px;}
+.jobsWrap .rightArea .jblist li {height:22px; overflow:hidden; text-align:left;}
+.jobsWrap .rightArea .jblist li img {margin-right:4px; vertical-align:-4px;}
+.jobsWrap .rightArea .jblist li a {display:inline-block; color:#666; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.jobsWrap .rightArea .paging {position:absolute; right:10px; padding-top:12px;}
+.jobsWrap .rightArea .paging button {float:left; height:14px; border:0; overflow:hidden; background: url(http://www.koreatimes.com/promotion/jobkoreausa/images/ico.png) no-repeat 0 -170px; text-indent: -3000em; cursor:pointer;}
+.jobsWrap .rightArea .paging .prev {width:15px; left:0;}
+.jobsWrap .rightArea .paging .next {width:14px; left:15px; background-position:-15px -170px;}
